@@ -39,6 +39,18 @@ gemini extensions install https://github.com/krutytskyi/kissmypost-gemini
 
 Gemini CLI asks for the API key during install and keeps it in your system keychain.
 
+## Use with ADK (Google Agent Development Kit)
+
+Building your own agent with Gemini? [`adk-sample/`](adk-sample) is a ready "Reddit audience researcher" agent that plugs KissMyPost in as an ADK `McpToolset` over Streamable HTTP:
+
+```bash
+cd adk-sample && pip install -r requirements.txt
+cp kissmypost_agent/.env.example kissmypost_agent/.env   # add GOOGLE_API_KEY and KISSMYPOST_API_KEY
+adk web
+```
+
+See [adk-sample/README.md](adk-sample/README.md) for the code and example questions.
+
 ## API key
 
 The server needs a free KissMyPost account. Create a key (it starts with `kmp_`) at https://kissmypost.com/mcp. Paid accounts unlock a few more tools; the plugin is the same.
