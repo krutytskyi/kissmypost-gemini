@@ -30,7 +30,7 @@ or open the ADK dev UI at http://localhost:8000 and pick `kissmypost_agent`:
 adk web
 ```
 
-To use another Gemini model, set `GEMINI_MODEL` in `.env`.
+To use another Gemini model, set `GEMINI_MODEL` in `.env` (for example `gemini-3.6-flash`). If the default model answers `503 UNAVAILABLE` (high demand), pick another one this way.
 
 ## Try
 
