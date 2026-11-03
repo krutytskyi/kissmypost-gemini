@@ -1,0 +1,28 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "kissmypost",
+  "displayName": "KissMyPost Audience Research",
+  "version": "1.0.0",
+  "description": "Reddit audience research: find subreddits for a topic, subreddit size and growth, who is in a subreddit, best time to post, similar subreddits, posting rules and brand mentions. Read-only.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "When is the best time to post in r/SaaS?",
+    "Which subreddits talk about espresso, and which is the biggest?",
+    "How often does Reddit mention notion.so?"
+  ],
+  "author": {
+    "name": "KissMyPost",
+    "url": "https://kissmypost.com"
+  },
+  "homepage": "https://kissmypost.com/mcp",
+  "license": "MIT",
+  "keywords": [
+    "reddit",
+    "subreddits",
+    "reddit marketing",
+    "audience research",
+    "best time to post on reddit",
+    "brand mentions",
+    "reddit analytics"
+  ]
+}

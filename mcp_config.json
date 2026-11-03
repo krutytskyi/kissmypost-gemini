@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "kissmypost": {
+      "url": "https://kissmypost.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${KISSMYPOST_API_KEY}"
+      },
+      "variables": [
+        {
+          "name": "KISSMYPOST_API_KEY",
+          "title": "KissMyPost API key",
+          "description": "Starts with kmp_. Free account, create the key at kissmypost.com/mcp.",
+          "link": "https://kissmypost.com/mcp"
+        }
+      ]
+    }
+  }
+}

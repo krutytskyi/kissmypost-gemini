@@ -1,0 +1,22 @@
+{
+  "name": "kissmypost",
+  "version": "1.0.0",
+  "description": "Reddit audience research: subreddits for a topic, size and growth, best time to post, similar subreddits, brand mentions. Read-only.",
+  "contextFileName": "skills/reddit-audience-research/SKILL.md",
+  "mcpServers": {
+    "kissmypost": {
+      "httpUrl": "https://kissmypost.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${KISSMYPOST_API_KEY}"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "KissMyPost API key",
+      "description": "Starts with kmp_. Free account, create the key at https://kissmypost.com/mcp.",
+      "envVar": "KISSMYPOST_API_KEY",
+      "sensitive": true
+    }
+  ]
+}
