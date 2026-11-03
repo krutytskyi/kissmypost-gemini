@@ -1,4 +1,4 @@
-# KissMyPost for Antigravity and Gemini CLI
+# KissMyPost: Reddit Audience Research for Antigravity and Gemini CLI
 
 KissMyPost is a Reddit analytics and audience research tool, and this plugin brings it into Google Antigravity (App and the `agy` CLI) and Gemini CLI. Use it as a subreddit finder for a product or topic, to size up a community (members, growth, activity), to see who is in a subreddit, to plan Reddit marketing with the best time to post and each subreddit's posting rules, to find communities that share the same people, and to track Reddit brand mentions month by month. The agent answers with real numbers instead of guesses, and every answer links to the full report on kissmypost.com.
 
@@ -10,7 +10,7 @@ KissMyPost is a Reddit analytics and audience research tool, and this plugin bri
 agy plugin install https://github.com/krutytskyi/kissmypost-gemini
 ```
 
-Then open `/plugin` (CLI) or **Customizations → Plugins** (App), turn **KissMyPost Audience Research** on and paste your API key when asked.
+Then open `/plugin` (CLI) or **Customizations → Plugins** (App), turn **KissMyPost: Reddit Audience Research** on and paste your API key when asked.
 
 Prefer to add the server by hand? Run:
 
@@ -53,7 +53,7 @@ See [adk-sample/README.md](adk-sample/README.md) for the code and example questi
 
 ## API key
 
-The server needs a free KissMyPost account. Create a key (it starts with `kmp_`) at https://kissmypost.com/mcp. Paid accounts unlock a few more tools; the plugin is the same.
+The server needs a free KissMyPost account. Create a key (it starts with `kmp_`) at [kissmypost.com/mcp](https://kissmypost.com/mcp?utm_source=github&utm_medium=directory). Paid accounts unlock a few more tools; the plugin is the same.
 
 ## What is inside
 
@@ -65,6 +65,8 @@ Try:
 - When is the best time to post in r/SaaS?
 - Which subreddits talk about espresso, and which is the biggest?
 - How often does Reddit mention notion.so?
+- Who is in r/fitness: share of women, median age, where else they hang out?
+- Which subreddits have the same people as r/running?
 
 ## What it sends and where
 

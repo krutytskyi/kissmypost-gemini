@@ -1,10 +1,10 @@
 {
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "kissmypost",
-  "displayName": "KissMyPost Audience Research",
-  "version": "1.0.0",
-  "description": "Reddit audience research: find subreddits for a topic, subreddit size and growth, who is in a subreddit, best time to post, similar subreddits, posting rules and brand mentions. Read-only.",
-  "logo": "assets/logo.svg",
+  "displayName": "KissMyPost: Reddit Audience Research",
+  "version": "1.0.1",
+  "description": "Reddit analytics and audience research for AI assistants: find subreddits for a topic, see who is in them, the best time to post, posting rules and Reddit brand mentions. KissMyPost works as a subreddit finder and Reddit marketing tool: subreddit growth and audience stats, similar subreddits, trending topics, Reddit post and mention search, and threads worth a reply. 17 read-only tools. Free API key at kissmypost.com/mcp. Not affiliated with Reddit, Inc.",
+  "logo": "assets/logo-512.png",
   "suggestedPrompts": [
     "When is the best time to post in r/SaaS?",
     "Which subreddits talk about espresso, and which is the biggest?",
@@ -14,15 +14,23 @@
     "name": "KissMyPost",
     "url": "https://kissmypost.com"
   },
-  "homepage": "https://kissmypost.com/mcp",
+  "homepage": "https://kissmypost.com/mcp?utm_source=antigravity&utm_medium=directory",
   "license": "MIT",
   "keywords": [
     "reddit",
-    "subreddits",
-    "reddit marketing",
+    "reddit analytics",
     "audience research",
+    "subreddit finder",
+    "find subreddits",
+    "reddit marketing tool",
+    "reddit marketing",
     "best time to post on reddit",
-    "brand mentions",
-    "reddit analytics"
+    "subreddit posting rules",
+    "reddit brand mentions",
+    "similar subreddits",
+    "subreddit demographics",
+    "reddit research",
+    "social media marketing",
+    "mcp"
   ]
 }

@@ -1,11 +1,11 @@
 {
   "name": "kissmypost",
-  "version": "1.0.0",
-  "description": "Reddit audience research: subreddits for a topic, size and growth, best time to post, similar subreddits, brand mentions. Read-only.",
+  "version": "1.0.1",
+  "description": "Reddit analytics and audience research for AI assistants: find subreddits for a topic, see who is in them, the best time to post, posting rules and Reddit brand mentions. KissMyPost works as a subreddit finder and Reddit marketing tool: subreddit growth and audience stats, similar subreddits, trending topics, Reddit post and mention search, and threads worth a reply. 17 read-only tools. Free API key at kissmypost.com/mcp. Not affiliated with Reddit, Inc.",
   "contextFileName": "skills/reddit-audience-research/SKILL.md",
   "mcpServers": {
     "kissmypost": {
-      "httpUrl": "https://kissmypost.com/api/mcp",
+      "httpUrl": "https://kissmypost.com/api/mcp?src=gemini-cli",
       "headers": {
         "Authorization": "Bearer ${KISSMYPOST_API_KEY}"
       }
@@ -14,7 +14,7 @@
   "settings": [
     {
       "name": "KissMyPost API key",
-      "description": "Starts with kmp_. Free account, create the key at https://kissmypost.com/mcp.",
+      "description": "Starts with kmp_. Free account, create the key at https://kissmypost.com/mcp?utm_source=gemini-cli&utm_medium=directory",
       "envVar": "KISSMYPOST_API_KEY",
       "sensitive": true
     }

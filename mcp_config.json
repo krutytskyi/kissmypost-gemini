@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "kissmypost": {
-      "url": "https://kissmypost.com/api/mcp",
+      "url": "https://kissmypost.com/api/mcp?src=antigravity",
       "headers": {
         "Authorization": "Bearer ${KISSMYPOST_API_KEY}"
       },
@@ -10,7 +10,7 @@
           "name": "KISSMYPOST_API_KEY",
           "title": "KissMyPost API key",
           "description": "Starts with kmp_. Free account, create the key at kissmypost.com/mcp.",
-          "link": "https://kissmypost.com/mcp"
+          "link": "https://kissmypost.com/mcp?utm_source=antigravity&utm_medium=directory"
         }
       ]
     }
